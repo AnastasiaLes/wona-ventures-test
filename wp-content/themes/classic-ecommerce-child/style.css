@@ -1,0 +1,145 @@
+/*
+Theme Name: classic-ecommerce Child
+Theme URI:  https://www.wpserveur.net
+Author:     WPServeur
+Author URI: https://www.wpserveur.net
+Template:   classic-ecommerce
+Version:    1.0
+License:    GNU General Public License v2 or later
+*/
+
+/* HEADER*/
+.category-btn {
+    position: absolute;
+    width: 40px;
+    background: transparent;
+    color: white;
+    right: 178px;
+    outline: none;
+    text-align: center;
+    padding: 0;
+    top: 40px;
+    z-index: 999;
+}
+@media screen and (max-width: 1100px) {
+    .category-btn {
+        right: 20px;
+    }
+}
+.category-btn:focus {
+    outline: none;
+}
+.category-btn i {
+    font-size: 35px;
+}
+.category-dropdown {
+    background: #ffffff90;
+    border-radius: 10px;
+    width: 300px;
+    right: 178px;
+    top: 80px;
+    max-height: 250px;
+    overflow-y: hidden;
+}
+@media screen and (max-width: 1100px) {
+    .category-dropdown {
+        right: 20px;
+    }
+}
+.category-dropdown .sub-menu li {
+    list-style: none;
+    margin-left: 30px;
+}
+.category-dropdown li a {
+    margin-left: 20px;
+    color: #343234;
+}
+.category-dropdown li a:hover {
+    color: #FF61E6;
+}
+
+/* INDEX */
+.wp_container {
+    width: 1110px;
+    margin: 0 auto 50px auto;
+}
+@media screen and (max-width: 1100px) {
+    .wp_container {
+        width: 450px;
+        margin: 0 auto;
+    }
+}
+
+.wp_text_block {
+    display: flex;
+    flex-direction: column;
+    margin: 60px 0 48px auto;
+    max-width: 630px;
+    justify-content: flex-end;
+}
+.wp_text_block p {
+    text-align: right;
+}
+.wp_text_block h2 {
+    margin-bottom: 8px;
+    text-align: right;
+    font-size: 28px;
+}
+@media screen and (max-width: 1100px) {
+    .wp_text_block {
+        width: 350px;
+        margin: 30px auto 10px auto;
+    }
+}
+.wp_read_more_btn {
+    border: none;
+    border-color: transparent;
+    background-color: #fff;
+    cursor: pointer;
+    margin: 0 0 0 auto;
+}
+.wp_cards_block {
+    padding-bottom: 30px;
+    display: grid;
+    grid-template-columns: 350px 350px 350px;
+    grid-row-gap: 30px;
+    justify-content: space-between;
+}
+@media screen and (max-width: 1100px) {
+    .wp_cards_block {
+            padding-bottom: 30px;
+            display: grid;
+            grid-template-columns: 350px;
+            /* grid-row-gap: 30px; */
+            justify-content: center;
+        }
+    
+}
+
+/* PRODUCT CARD*/
+.wp_one_card {
+    width: 350px;
+    align-items: center;
+    text-align: center;
+}
+.wp_buy_btn {
+    width: 250px;
+    height: 46px;
+    background-color: #fff;
+    cursor: pointer;
+    text-align: center;
+}
+.meta_block {
+    display: flex;
+    justify-content: space-between;
+}
+.meta_data {
+    color: rgba(0, 0, 0, 0.5);
+}
+.wp_price {
+margin-right: 18px;
+margin-bottom: 18px;
+}
+.img {
+    margin: 0 auto;
+}

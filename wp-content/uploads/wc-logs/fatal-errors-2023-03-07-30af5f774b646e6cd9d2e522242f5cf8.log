@@ -1,0 +1,70 @@
+2023-03-07T11:47:39+00:00 CRITICAL syntax error, unexpected ''container'' (T_CONSTANT_ENCAPSED_STRING), expecting ')' in D:\OSPanel\domains\test-site\wp-content\themes\classic-ecommerce-child\header.php on line 26
+
+2023-03-07T12:21:59+00:00 CRITICAL Uncaught Error: Call to a member function is_on_sale() on null in D:\OSPanel\domains\test-site\wp-content\plugins\woocommerce\templates\single-product\sale-flash.php:25
+Stack trace:
+#0 D:\OSPanel\domains\test-site\wp-content\plugins\woocommerce\includes\wc-core-functions.php(345): include()
+#1 D:\OSPanel\domains\test-site\wp-content\plugins\woocommerce\includes\wc-template-functions.php(1683): wc_get_template()
+#2 D:\OSPanel\domains\test-site\wp-includes\class-wp-hook.php(308): woocommerce_show_product_sale_flash()
+#3 D:\OSPanel\domains\test-site\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters()
+#4 D:\OSPanel\domains\test-site\wp-includes\plugin.php(517): WP_Hook->do_action()
+#5 D:\OSPanel\domains\test-site\wp-content\plugins\woocommerce\templates\content-single-product.php(43): do_action()
+#6 D:\OSPanel\domains\test-site\wp-includes\template.php(785): require('D:\\OSPanel\\doma...')
+#7 D:\OSPanel\domains\test-site\wp-content\plugins\woocommerce\includes\wc-core-functions.php(284): load_template()
+ in D:\OSPanel\domains\test-site\wp-content\plugins\woocommerce\templates\single-product\sale-flash.php on line 25
+
+2023-03-07T12:22:48+00:00 CRITICAL Uncaught Error: Call to a member function is_on_sale() on null in D:\OSPanel\domains\test-site\wp-content\plugins\woocommerce\templates\single-product\sale-flash.php:25
+Stack trace:
+#0 D:\OSPanel\domains\test-site\wp-content\plugins\woocommerce\includes\wc-core-functions.php(345): include()
+#1 D:\OSPanel\domains\test-site\wp-content\plugins\woocommerce\includes\wc-template-functions.php(1683): wc_get_template()
+#2 D:\OSPanel\domains\test-site\wp-includes\class-wp-hook.php(308): woocommerce_show_product_sale_flash()
+#3 D:\OSPanel\domains\test-site\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters()
+#4 D:\OSPanel\domains\test-site\wp-includes\plugin.php(517): WP_Hook->do_action()
+#5 D:\OSPanel\domains\test-site\wp-content\plugins\woocommerce\templates\content-single-product.php(43): do_action()
+#6 D:\OSPanel\domains\test-site\wp-includes\template.php(785): require('D:\\OSPanel\\doma...')
+#7 D:\OSPanel\domains\test-site\wp-content\plugins\woocommerce\includes\wc-core-functions.php(284): load_template()
+ in D:\OSPanel\domains\test-site\wp-content\plugins\woocommerce\templates\single-product\sale-flash.php on line 25
+
+2023-03-07T12:22:55+00:00 CRITICAL Uncaught Error: Call to a member function is_on_sale() on null in D:\OSPanel\domains\test-site\wp-content\plugins\woocommerce\templates\single-product\sale-flash.php:25
+Stack trace:
+#0 D:\OSPanel\domains\test-site\wp-content\plugins\woocommerce\includes\wc-core-functions.php(345): include()
+#1 D:\OSPanel\domains\test-site\wp-content\plugins\woocommerce\includes\wc-template-functions.php(1683): wc_get_template()
+#2 D:\OSPanel\domains\test-site\wp-includes\class-wp-hook.php(308): woocommerce_show_product_sale_flash()
+#3 D:\OSPanel\domains\test-site\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters()
+#4 D:\OSPanel\domains\test-site\wp-includes\plugin.php(517): WP_Hook->do_action()
+#5 D:\OSPanel\domains\test-site\wp-content\plugins\woocommerce\templates\content-single-product.php(43): do_action()
+#6 D:\OSPanel\domains\test-site\wp-includes\template.php(785): require('D:\\OSPanel\\doma...')
+#7 D:\OSPanel\domains\test-site\wp-content\plugins\woocommerce\includes\wc-core-functions.php(284): load_template()
+ in D:\OSPanel\domains\test-site\wp-content\plugins\woocommerce\templates\single-product\sale-flash.php on line 25
+
+2023-03-07T12:32:23+00:00 CRITICAL syntax error, unexpected 'get_product' (T_STRING) in D:\OSPanel\domains\test-site\wp-content\themes\classic-ecommerce-child\index.php on line 21
+
+2023-03-07T12:33:31+00:00 CRITICAL Maximum execution time of 60 seconds exceeded in D:\OSPanel\domains\test-site\wp-content\themes\classic-ecommerce-child\index.php on line 26
+
+2023-03-07T13:04:05+00:00 CRITICAL syntax error, unexpected '?' in D:\OSPanel\domains\test-site\wp-content\themes\classic-ecommerce-child\index.php on line 30
+
+2023-03-07T13:04:05+00:00 CRITICAL syntax error, unexpected '?' in D:\OSPanel\domains\test-site\wp-content\themes\classic-ecommerce-child\index.php on line 30
+
+2023-03-07T13:33:20+00:00 CRITICAL Uncaught Error: Call to undefined function get_slider() in D:\OSPanel\domains\test-site\wp-content\themes\classic-ecommerce-child\index.php:12
+Stack trace:
+#0 D:\OSPanel\domains\test-site\wp-includes\template-loader.php(106): include()
+#1 D:\OSPanel\domains\test-site\wp-blog-header.php(19): require_once('D:\\OSPanel\\doma...')
+#2 D:\OSPanel\domains\test-site\index.php(17): require('D:\\OSPanel\\doma...')
+#3 {main}
+  thrown in D:\OSPanel\domains\test-site\wp-content\themes\classic-ecommerce-child\index.php on line 12
+
+2023-03-07T14:20:02+00:00 CRITICAL syntax error, unexpected '?' in D:\OSPanel\domains\test-site\wp-content\themes\classic-ecommerce-child\template-parts\product-card.php on line 11
+
+2023-03-07T14:23:50+00:00 CRITICAL syntax error, unexpected 'var_dump' (T_STRING), expecting ';' or ',' in D:\OSPanel\domains\test-site\wp-content\themes\classic-ecommerce-child\template-parts\product-card.php on line 11
+
+2023-03-07T14:24:25+00:00 CRITICAL syntax error, unexpected 'var_dump' (T_STRING), expecting ';' or ',' in D:\OSPanel\domains\test-site\wp-content\themes\classic-ecommerce-child\template-parts\product-card.php on line 11
+
+2023-03-07T19:24:13+00:00 CRITICAL Uncaught Error: Call to undefined function read_more_button() in D:\OSPanel\domains\test-site\wp-content\themes\classic-ecommerce-child\page.php:19
+Stack trace:
+#0 D:\OSPanel\domains\test-site\wp-includes\template-loader.php(106): include()
+#1 D:\OSPanel\domains\test-site\wp-blog-header.php(19): require_once('D:\\OSPanel\\doma...')
+#2 D:\OSPanel\domains\test-site\index.php(17): require('D:\\OSPanel\\doma...')
+#3 {main}
+  thrown in D:\OSPanel\domains\test-site\wp-content\themes\classic-ecommerce-child\page.php on line 19
+
+2023-03-07T19:54:05+00:00 CRITICAL syntax error, unexpected end of file in D:\OSPanel\domains\test-site\wp-content\themes\classic-ecommerce-child\functions.php on line 25
+
