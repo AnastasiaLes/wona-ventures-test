@@ -11,7 +11,9 @@
     cursor: pointer;
     text-align: center;
 }
-
+.wp_buy_btn:hover {
+    background-color: #fbe5e8;
+}
 .meta_block {
     display: flex;
     justify-content: space-between;

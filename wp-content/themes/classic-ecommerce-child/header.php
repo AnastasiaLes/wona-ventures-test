@@ -17,13 +17,20 @@
 <body <?php body_class(); ?>>
 <?php wp_body_open(); ?>
 
-<header>
-        <button class="category-btn" id="menu_btn"><i class="fa fa-bars" aria-hidden="true"></i></button>
-        <div class="category-dropdown">
-            <?php wp_nav_menu(array(
-                'theme_location' => 'header_menu',
-                'container' => false,
-            ));
-            ?> 
+<header >
+    <?php if( is_front_page() ) : ?>
+        <div>
+    <?php else : ?>
+    <div class='wp-header'>
+    <?php endif; ?>
+    
+    <button class="category-btn" id="menu_btn"><i class="fa fa-bars" aria-hidden="true"></i></button>
+    <div class="category-dropdown">
+        <?php wp_nav_menu(array(
+            'theme_location' => 'header_menu',
+            'container' => false,
+        ));
+        ?> 
+        </div>
 </div>
 </header>

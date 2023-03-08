@@ -2,7 +2,6 @@
     width: 1110px;
     margin: 0 auto 50px auto;
 }
-
 @media screen and (max-width: 1100px) {
     .wp_container {
         width: 450px;
@@ -18,32 +17,36 @@
     justify-content: flex-end;
 }
 
-.wp_text_block {
-    p {
+.wp_text_block p {
     text-align: right;
 }
-h2 {
+.wp_text_block h2 {
     margin-bottom: 8px;
     text-align: right;
     font-size: 28px;
 }
-}
-
 @media screen and (max-width: 1100px) {
     .wp_text_block {
         width: 350px;
         margin: 30px auto 10px auto;
     }
 }
-
+.wp_text_block a {
+    text-decoration: none;
+}
 .wp_read_more_btn {
+    display: flex;
     border: none;
-    border-color: transparent;
     background-color: #fff;
     cursor: pointer;
-    margin: 0 0 0 auto;
+    align-items: baseline;
+    color: black;
+    justify-content: flex-end;
+}    
+.wp_read_more_btn i {
+    margin-left: 5px;
+    color: #FF61E6;
 }
-
 .wp_cards_block {
     padding-bottom: 30px;
     display: grid;
@@ -51,7 +54,6 @@ h2 {
     grid-row-gap: 30px;
     justify-content: space-between;
 }
-
 @media screen and (max-width: 1100px) {
     .wp_cards_block {
         padding-bottom: 30px;

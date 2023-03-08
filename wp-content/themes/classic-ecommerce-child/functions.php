@@ -12,8 +12,6 @@ if ( ! function_exists( 'b7ectg_theme_enqueue_styles' ) ) {
 
 function myTheme_setup() {
     add_theme_support('title-tag');
-    // add_theme_support('post-thumbnails');
-
     register_nav_menus(array(
         'header_menu' => 'Header Menu',
     ));
@@ -27,7 +25,8 @@ function filter_content($content) {
     return $content;
 }
 
-function read_more_button() {
-    global $post;
-    return '<div id="" class="btn"></div>';
-}
+// add_filter('the_content', 'read_more_button');
+// function read_more_button() {
+//     global $post;
+//     return '<div class="wp_read_more_btn"></div>';
+// }

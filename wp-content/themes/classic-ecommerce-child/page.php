@@ -14,10 +14,11 @@ echo do_shortcode('[smartslider3 slider="2"]');
 <div class='wp_container'>
 
     <div class='wp_text_block'>
-            <?php the_content('Read on...', TRUE); 
-            
-            ?>
-            <!-- <button class='wp_read_more_btn'>Read more </button> -->
+        <?php $post = get_post( 71);?>
+        <h2><?php the_title(); ?> </h2>
+        <?php the_content('<span class="wp_read_more_btn">Read more<i class="fa fa-check"></i></span>'); ?>
+        <a href='<?php the_permalink(71); ?>'>
+        </a>
     </div>
     
     <div class='wp_cards_block'>
