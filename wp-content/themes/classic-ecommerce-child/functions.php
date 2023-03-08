@@ -24,9 +24,3 @@ function filter_content($content) {
 
     return $content;
 }
-
-// add_filter('the_content', 'read_more_button');
-// function read_more_button() {
-//     global $post;
-//     return '<div class="wp_read_more_btn"></div>';
-// }

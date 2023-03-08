@@ -8,7 +8,6 @@
         margin: 0 auto;
     }
 }
-
 .wp_text_block {
     display: flex;
     flex-direction: column;
@@ -16,7 +15,6 @@
     max-width: 630px;
     justify-content: flex-end;
 }
-
 .wp_text_block p {
     text-align: right;
 }
@@ -56,11 +54,7 @@
 }
 @media screen and (max-width: 1100px) {
     .wp_cards_block {
-        padding-bottom: 30px;
-        display: grid;
         grid-template-columns: 350px;
-        /* grid-row-gap: 30px; */
         justify-content: center;
     }
-
 }

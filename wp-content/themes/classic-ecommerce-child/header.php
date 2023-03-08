@@ -19,18 +19,18 @@
 
 <header >
     <?php if( is_front_page() ) : ?>
-        <div>
+    <div>
     <?php else : ?>
     <div class='wp-header'>
     <?php endif; ?>
     
-    <button class="category-btn" id="menu_btn"><i class="fa fa-bars" aria-hidden="true"></i></button>
-    <div class="category-dropdown">
-        <?php wp_nav_menu(array(
-            'theme_location' => 'header_menu',
-            'container' => false,
-        ));
-        ?> 
+        <button class="category-btn" id="menu_btn"><i class="fa fa-bars" aria-hidden="true"></i></button>
+        <div class="category-dropdown">
+            <?php wp_nav_menu(array(
+                'theme_location' => 'header_menu',
+                'container' => false,
+            ));
+            ?> 
         </div>
-</div>
+    </div>
 </header>
